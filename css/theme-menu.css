@@ -1,0 +1,470 @@
+﻿.custom-wrapper{
+    padding-bottom: 0!important;
+}
+.info-text{
+    color: #808080;
+    font-size: 15px;
+}
+
+.my-btn{
+    display: inline-block;
+    margin: 15px 0px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 2px;
+    background: #3498DB;
+    color: #fff!important;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 15px;
+    height: 43px;
+    line-height: 38px;
+    font-size: 14px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s ease 0s;
+}
+.my-btn:hover{
+    text-decoration: none;
+    opacity: .8;
+}
+.btn-color-one{
+    text-decoration: none;
+    color: #fff;
+    background: #2c3e50;
+}
+
+.half-width{
+    width: 49%;
+    overflow: hidden;
+}
+
+.subtitle a:hover,
+.hover1:hover{
+text-decoration: none;
+    color: #fff;
+    background: #2c3e50;
+    border-bottom: 3px solid #1c2836;
+}
+
+a{
+    outline: 0!important;
+}
+.logo {
+	font-size:25px;
+	font-weight:bold;
+	margin-top:15px;
+
+}
+.logo a img
+{
+    margin-top:0px !Important;
+}
+a:hover,
+a:focus
+{
+    color:#428BCA;
+}
+.logo a
+{
+    text-decoration:none;
+    color: #fff;
+}
+
+/*colr-container1 css*/
+.colr-container1{
+    /*background-color: #e7e7e7;
+    background-image: url("../image/container1.jpg");
+    background-repeat: no-repeat;*/
+}
+.colr-container2{
+    background: #f8f8f8;
+}
+.parallax-shell{
+    text-align: center;
+    background-image: url("../image/parallax.jpeg");
+    background-attachment: fixed;
+    background-position: center center;
+}
+.colr-container3{
+    /*background-color: #f4f4f4;*/
+
+}
+
+
+.loc-temp .loc-col{
+    background-color: #dbdbdb;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 31%!important;
+    margin-bottom: 30px !important;
+}
+.loc-col .feature-image{
+    background: #393939;
+
+}
+
+
+
+
+/*---------------------Top Header New CSS------------------------------------------*/
+.top-header-wrapper{
+    padding-bottom: 5px;
+    background: #434A53;
+}
+.top-header-wrapper .left-margin{
+    margin-left:5px;
+    padding-top: 7px;
+}
+.top-header-wrapper .right-margin{
+    margin-right:5px;
+    padding-top: 7px;
+}
+.top-header-wrapper .top-icon{
+    color: #B1BAC3;
+    padding: 5px;
+    background: #313841;
+
+
+}
+.top-header-wrapper form{
+    padding-top: 5px;
+    width: 100%;
+
+}
+.top-header-wrapper #search-text{
+    width: 70%;
+    border: 0 none;
+
+    border-radius: 4px;
+    color: #536A81;
+    background-color: #293A4A;
+    padding: 8px 10px;
+
+}
+/*--------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*Custom slider*/
+.sequence-theme{
+    border-bottom: 3px solid #1e2d3d;
+    background-color: #1e2d3d!important;
+}
+
+.sequence-canvas .title{
+    position: absolute;
+    font-family: inherit;
+    color: #FFF;
+    font-weight: 100;
+    border-radius: 5px;
+    white-space: nowrap;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+    transform: rotate(0deg) scale(1, 1);
+    width: auto;
+    height: auto;
+    font-size: 41px;
+    line-height: 48px;
+    padding: 5px 15px;
+    border-width: 0px;
+    margin-bottom: 70px;
+}
+@media screen and (max-width: 1000px) {
+    .sequence-canvas .title{
+        font-size: 3em;
+        margin-bottom: 80px;
+
+    }
+}
+@media screen and (max-width: 568px) {
+    .sequence-canvas .title{
+        font-size: .5em;
+        margin-top: 0;
+
+
+
+
+    }
+}
+
+
+.sequence-canvas .subtitle p{
+
+   font-family: inherit;
+    background: #2C3E50;
+    color: #fff;
+    display: inline-block;
+    white-space: nowrap;
+    opacity: .9;
+border-left: 3px solid #3498DB;
+    visibility: visible;
+    transform: rotate(0deg) scale(1, 1);
+
+    /*text-shadow: 2px 2px #1e2d3d;*/
+    width: auto;
+    height: auto;
+    font-size: 22px;
+   margin-bottom: 5px !important;
+    padding: 5px 10px;
+
+}
+
+/*------------My Navbar---------------*/
+
+
+
+.navbar{
+    border: 0 none;
+    margin-bottom: 0;
+    background-color: #0091ea;
+    border-radius: 0;
+
+}
+.navbar .nav > li > a{
+    font-size: 12px;
+    transition: all 0.3s ease-in-out 0s;
+    color: #FFFFFF!important;
+    font-weight: 700;
+    padding: 25px 19px;
+    text-transform: uppercase;
+}
+
+.dropdown-menu {
+    min-width: 210px;
+    background: #0085DC;
+    border: 0 none;
+}
+.dropdown-menu > li > a{
+    color: #fff;
+    padding: 5px 20px;
+
+}
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #0085dc;
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a:after,
+.navbar-default .navbar-nav > .active > a:hover:after,
+.navbar-default .navbar-nav > .active > a:focus:after,
+.navbar-default .navbar-nav > .active > a:before,
+.navbar-default .navbar-nav > .active > a:hover:before,
+.navbar-default .navbar-nav > .active > a:focus:before
+{
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.navbar-default .navbar-nav > .active > a:after,
+.navbar-default .navbar-nav > .active > a:hover:after,
+.navbar-default .navbar-nav > .active > a:focus:after, {
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: #0085dc;
+    border-width: 7px;
+    margin-left: -7px;
+}
+
+.navbar-default .navbar-nav > .active > a:before,
+.navbar-default .navbar-nav > .active > a:hover:before,
+.navbar-default .navbar-nav > .active > a:focus:before{
+    border-color: rgba(194, 225, 245, 0);
+    border-top-color: #0085dc;
+    border-width: 8px;
+    margin-left: -8px;
+}
+
+
+
+
+
+
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #0085dc;
+
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: #0085dc;
+
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+
+}
+
+
+/*------------My Navbar---------------*/
+
+/*--------Container My-Quote--------*/
+
+.my-quote{
+    background-color: #1e2d3d;
+    color: #fff;
+    /*background-image: url("image/testimonial-bg.jpg");*/
+    /*box-shadow: 0px 5px 12px rgba(50, 50, 50, 0.15);*/
+    width: 100%!important;
+    padding: 30px 25px 0 25px;
+    position: relative;
+
+}
+.my-quote .land{
+    /*font-size: 28px !important;*/
+    font-size: 2em;
+    line-height: 35px;
+}
+.my-quote .row p{
+    text-align: center;
+}
+.my-quote:before,
+.my-quote:after{
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.my-quote:before{
+    border-color: rgba(194, 225, 245, 0);
+    border-top-color: #1e2d3d;
+    border-width: 18px;
+    margin-left: -18px;
+}
+.my-quote:after{
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: #1e2d3d;
+    border-width: 17px;
+    margin-left: -17px;
+}
+
+/*--------Container My-Quote ends--------*/
+
+/*--------Special Promotions Section ends--------*/
+.img-overlay2{
+    position: relative;
+}
+.discount-wrapper{
+    background: #E9513C;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+
+    right: -8px;
+}
+.discount-label{
+    padding: 9px 12px;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: bold;
+    text-align: center;
+}
+.dis-triangle{
+    border-style: solid;
+    border-bottom: 0px solid transparent;
+    border-right: 8px solid transparent;
+    border-left: 0px solid transparent;
+    width: 0px;
+    border-width: 8px 8px 0px 0px;
+    height: 0px;
+    position: absolute;
+    right: 0;
+    border-top-color: #000;
+}
+.dis-section1{
+    font-size: 12px;
+    display: block;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+.dis-section2{
+    font-size: 18px;
+    display: block;
+    line-height: 1;
+}
+/*--------Special Promotions Section ends--------*/
+
+
+
+.post-img{
+    width: 50%;
+}
+.ft-about{
+    font-size: 13px;
+    color: #868686;
+}
+
+/*footer */
+div.last-minute-deal-wrapper {
+    background-size: 100% auto;
+    border-radius: 8px;
+    max-width: 100%;
+    float: left;
+    margin-right: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    width: 280px;
+    background-image: url("../image/Fotolia_44732079_Subscription_Monthly_XL.jpg");
+}
+div.last-minute-deal-wrapper a{
+    text-decoration: none !important;
+}
+div.last-minute-overlay {
+    background: #3389d7;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.8;
+    position: absolute;
+    top: 0px;
+}
+div.last-minute-deal {
+    text-align: center;
+    padding: 25px 15px;
+    position: relative;
+    z-index: 1;
+}
+
+div.last-minute-deal .last-minute-head {
+    margin-bottom: 12px;
+}
+div.last-minute-deal .last-minute-head i {
+    font-size: 40px;
+    line-height: 41px;
+    margin-right: 10px;
+}
+div.last-minute-deal .last-minute-discount-text {
+    font-size: 30px;
+    line-height: 43px;
+}
+div.last-minute-deal .last-minute-title {
+    font-size: 22px;
+}
